@@ -1,3 +1,13 @@
+fork of st with some tweaks:
+- percentage based border buffer
+- refined italic/bold/underline rendering
+- click drag selection is slightly less sensitive to facilitate using inherently
+  noisy input devices (eg. drawing tablets)
+- middle click scroll
+doesn't compile with gcc for some reason (cba to fix, feels like a gcc bug tbh),
+compiles just fine with tcc though (with eg. `CC=tcc make`)
+
+ORIGINAL README:
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
