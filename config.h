@@ -1,0 +1,1 @@
+/home/lib/etc/st/config.h
