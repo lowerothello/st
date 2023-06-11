@@ -5,12 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cartograph CF:size=13";
+// static char *font = "Cartograph CF:size=13";
+static char *font = "Monospace";
 static int borderperc = 400;
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 0.90;
-static float chscale = 1.12;
+// static float cwscale = 0.90f;
+// static float chscale = 1.12f;
+static float cwscale = 1.0f;
+static float chscale = 1.0f;
 
 /*
  * What program is execed by st depends of these precedence rules:
